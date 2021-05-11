@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body, html{
+width: 100vw;
+height: 100vh;
+}
+
+#gradient
+{
+    background: linear-gradient(130deg, #0033cc, #00ff00, #ffff00,#ff0000);
+    background-size: 200% 200%;
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+
+
+.okoli{
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.top{
+	text-align: center;
+	overflow: hidden;
+	padding:5px 5px;
+	width:100%;
+	background:linear-gradient(-130deg, #0033cc, #00ff00, #ffff00,#ff0000);
+	background-size: 200% 200%;
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+#svgnajk{
+	position:absolute;
+	left:60%;
+	top:50%;
+}
+#ime{
+	height:57px;
+}
+.center{
+  margin: auto;
+  position: relative;
+  height: 800px;
+  width: 800px;
+}
+.shirtWrapper{
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
+.cvs{
+  top: 200px;
+  left: 250px;
+  margin: auto;
+}
+a:hover{
+	border:5px solid black;
+	color:White;
+}
+a.active{
+	border:1px solid White;
+}
+.cvs, #nikelogo{
+  z-index: 1;
+  position: absolute;
+}
